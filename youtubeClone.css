@@ -144,3 +144,68 @@ body {
     font-family: Arial;
     font-weight: 500;
 }
+
+.youtubeVideos {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-left: 250px;
+    width: 100%;
+}
+
+.youtubeVideo {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 270px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.videoThumbnail{
+    height: auto;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.videoDetails {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.channelThumbnail {
+    border-radius: 200px;
+    height: 40px;
+    margin-top: 12px;
+}
+
+.videoDetailsText {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoTitle {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: black;
+    font-weight: 500;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.videoViews, .channelName {
+    font-size: 13px;
+    font-family: "Roboto";
+    color: #606060;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.videoViews {
+    margin-top: -10px;
+}
